@@ -1,0 +1,24 @@
+This SQL-based data analysis project explores transactional data from a pizza restaurant to uncover sales trends, customer preferences, and business performance insights. The dataset includes detailed information about orders, pizza types, prices, quantities, and timestamps.
+
+📊 Key Analyses Performed:
+Total Revenue Calculation: Derived overall sales by joining order details with pizza pricing.
+
+Daily Sales Performance: Analyzed daily revenue and identified dates with sales higher than the average.
+
+Cumulative Revenue Trend: Used window functions to track how revenue accumulated over time.
+
+Category-wise Revenue Share: Computed the percentage contribution of each pizza category to total revenue.
+
+Sales by Pizza Size & Category: Identified most popular pizza sizes and categories by both order count and quantity.
+
+Hourly Demand Insights: Extracted peak ordering hours to support staffing and marketing decisions.
+
+Top 3 Pizza Types per Category (by Revenue): Used ROW_NUMBER() window function to determine bestsellers in each category.
+
+🧰 Tools & Skills Used:
+SQL (MySQL): Joins, subqueries, window functions, aggregations, filtering, and groupings.
+
+Data Cleaning: Ensured consistency in table relationships and keys.
+
+Analytical Thinking: Framed business questions and translated them into efficient SQL queries.
+
